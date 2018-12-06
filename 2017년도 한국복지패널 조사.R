@@ -59,7 +59,7 @@ qplot(welfare$sex)
 class(welfare$income)
 summary(welfare$income)
 qplot(welfare$income)
-qplot(welfare$income) + xlim(0, 1300)
+qplot(welfare$income) + xlim(0, 1500)
 
 #2. 전처리 
 # 이상치 확인 
